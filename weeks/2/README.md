@@ -17,6 +17,10 @@ You can run the Juptyer notebook as follows:
     ```commandline
     source env/bin/activate
     ```
+4. Install libraries
+    ```commandline
+    pip install -r requirements.txt
+    ```
 4. Run Jupyter Lab which is a browser-based interface for viewing and running Jupyter notebooks.
     ```commandline
     jupyter lab
