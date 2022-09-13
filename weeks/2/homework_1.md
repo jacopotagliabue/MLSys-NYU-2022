@@ -59,7 +59,7 @@ Please write a script that:
         "GarageArea",
     ]
     ```
-    fit a linear regression model with `scikit-learn` using just the first feature, fit a model using the first 2 features, fit a model using the first 3 features, etc... In the end, you should fit 9 separate models. Please use a `for` loop for this rather than manually writing the code 8 times.
+    fit a linear regression model with `scikit-learn` using just the first feature, fit a model using the first 2 features, fit a model using the first 3 features, etc... In the end, you should fit 8 separate models. Please use a `for` loop for this rather than manually writing the code 8 times.
 3. For each model, use `scikit-learn` to calculate the $R^{2}$, Mean Squared Error, Mean Absolute Error, and Mean Absolute Percentage Error.
 4. Finally, generate a plot for each performance metric. The x-axis should be the number of features in the model, and the y-axis is the value of the metric.
 
