@@ -26,9 +26,10 @@ You cannot pass the text directly into a machine learning model, so use the [Tfi
 
 For this problem, your script should
 
-1. Downlaod the training and test data.
-2. Train a Logistic Regression model off of the training TF-IDF features.
-3. Calculate a multiclass classification report on the test data.
+1. Download the training and test data.
+2. Generate TF-IDF features.
+3. Train a Logistic Regression model off of said features.
+4. Calculate a multiclass classification report on the test data.
 
 Finally, in commented code at the bottom of the script, write about which newsgroups your model has the highest and lowest precision on and explain why you think the model performs the way that it does on these newsgroups.
 
@@ -49,9 +50,9 @@ You might find the [ColumnTransformer](https://scikit-learn.org/stable/modules/g
 
 Split your data into `training` and `test` data. Then, using [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html), conduct a grid search that:
 
-1. Uses 5-fold cross validation.
-2. Searches across at least 2 different values for 3 different hyperparameters.
-3. Maximizes the Area Under the ROC Curve.
+1. Uses the `pipeline` that you've built as the estimator.
+2. Uses 5-fold cross validation.
+3. Searches across at least 2 different values for 3 different hyperparameters.
+4. Maximizes the Area Under the ROC Curve.
 
-Finally, train the model with the optimal hyperparameters on the full training dataset and then print out the Area Under the ROC Curve for the test set of data.
-
+Finally, given the optimal hyperparameters that you've found, train a model on the full training dataset and then print out the Area Under the ROC Curve for the test set of data.
