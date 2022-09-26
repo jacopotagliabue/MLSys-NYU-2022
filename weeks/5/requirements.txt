@@ -1,0 +1,7 @@
+jinja==>=3,<4
+jupyterlab>=3,<4
+graphviz==0.20.*
+matplotlib>=3,<4
+numpy>=1,<2
+pandas>=1,<2
+scikit-learn>=1,<2
