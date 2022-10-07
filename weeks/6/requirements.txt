@@ -1,0 +1,5 @@
+jupyterlab>=3,<4
+matplotlib>=3,<4
+numpy>=1,<2
+pandas>=1,<2
+scikit-learn>=1,<2
