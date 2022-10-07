@@ -5,7 +5,7 @@
 `requirements.txt` holds the Python dependencies for running this weeks' notebooks.
 
 ## Homework
-- [homework_3.md](homework_3.md) Due 10/1/2022.
+- [homework_3.md](homework_3.md) Due 10/14/2022.
 
 ## Notebooks
 
