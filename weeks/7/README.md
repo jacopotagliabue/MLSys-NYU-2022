@@ -14,5 +14,5 @@
 
 ## Misc
 
-[Blog posts](https://www.ethanrosenthal.com/tags/time-series/) from your professor.
-[Citi Bike Data](https://www.kaggle.com/datasets/rosenthal/citi-bike-stations) collected by your professor.
+- [Blog posts](https://www.ethanrosenthal.com/tags/time-series/) from your professor.
+- [Citi Bike Data](https://www.kaggle.com/datasets/rosenthal/citi-bike-stations) collected by your professor.
