@@ -20,6 +20,7 @@ import os
 # make sure we are running locally for this
 assert os.environ.get('METAFLOW_DEFAULT_DATASTORE', 'local') == 'local'
 assert os.environ.get('METAFLOW_DEFAULT_ENVIRONMENT', 'local') == 'local'
+assert os.environ.get('METAFLOW_DEFAULT_DATASTORE', 'local') == 'local'
 
 
 class SampleRegressionFlow(FlowSpec):
