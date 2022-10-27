@@ -14,4 +14,5 @@ Note: to run `small_flow.py`, use the Metaflow syntax `python small_flow.py run`
 
 ## External links and misc. stuff
 
-TBC
+* [Metaflow sandbox](https://metaflow.org/sandbox/)
+* [Your professor's blog post](https://medium.com/towards-data-science/noops-machine-learning-3893a42e32a4) 
