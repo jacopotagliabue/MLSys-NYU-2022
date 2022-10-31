@@ -1,0 +1,4 @@
+scikit-learn==0.23.1
+metaflow==2.5.0
+matplotlib==3.4.3
+streamlit==1.10.0

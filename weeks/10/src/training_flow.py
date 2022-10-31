@@ -22,9 +22,9 @@ assert os.environ.get('METAFLOW_DEFAULT_DATASTORE', 'local') == 'local'
 assert os.environ.get('METAFLOW_DEFAULT_ENVIRONMENT', 'local') == 'local'
 
 
-class SampleRegressionFlow(FlowSpec):
+class MyRegressionFlow(FlowSpec):
     """
-    SampleRegressionFlow is a minimal DAG showcasing reading data from a file 
+    MyRegressionFlow is a minimal DAG showcasing reading data from a file 
     and training a model successfully.
     """
     
@@ -133,4 +133,4 @@ class SampleRegressionFlow(FlowSpec):
 
 
 if __name__ == '__main__':
-    SampleRegressionFlow()
+    MyRegressionFlow()
