@@ -4,7 +4,9 @@
 
 The `notebooks` folder contain some sample code we will be using to investigate failure mode of different models, and appreciate how hard testing and evaluation actually is in practice.
 
-Requirements needed for the notebooks are in the same folder.
+The modelling aspect per se is not that important, as we are focusing here on evaluating performances _given a trained model_ (sometime, we may be asked to help evaluate a model we did _not_ train!). 
+
+For brevity, please note that some required, non-standard packages can be found inside the cells with the special syntax `!pip install XXX`.
 
 ## Documenting your flow
 
