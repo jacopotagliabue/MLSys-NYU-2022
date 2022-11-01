@@ -133,3 +133,5 @@ dmypy.json
 *.png
 
 *.metaflow/
+
+metaflow_card_cache/

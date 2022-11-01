@@ -1,3 +1,13 @@
+"""
+
+This a streamlit app that retrieves the latest Metaflow local run, displays data rows
+and make available a simple interactive UI for people to test the model!
+
+Documenting your model, through cards, and make its predictions easily accessible
+is a fundamental component of building trust in your model across your organization! 
+
+"""
+
 # import libraries
 import streamlit as st
 from metaflow import Flow
@@ -25,7 +35,7 @@ def get_latest_successful_run(flow_name: str):
 
 # get artifacts from latest run, using Metaflow Client API
 latest_run = get_latest_successful_run(FLOW_NAME)
-latest_model = latest_run.data.model
+latest_model = latest_run.data.moedl
 latest_X_train = latest_run.data.X_train
 y_predicted = latest_run.data.y_predicted
 y_test = latest_run.data.y_test
