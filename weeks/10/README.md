@@ -27,4 +27,6 @@ A browser window will open with the app!
 
 ## Misc. Links
 
-TBC
+* The original [Model Cards](https://arxiv.org/pdf/1810.03993.pdf) paper from Google
+* Behavioral testing in NL: [Checklist](https://www.microsoft.com/en-us/research/publication/beyond-accuracy-behavioral-testing-of-nlp-models-with-checklist/)
+* From your professor + Metaflow creators, [DAG Cards](https://arxiv.org/abs/2110.13601)
