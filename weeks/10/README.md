@@ -30,3 +30,4 @@ A browser window will open with the app!
 * The original [Model Cards](https://arxiv.org/pdf/1810.03993.pdf) paper from Google
 * Behavioral testing in NL: [Checklist](https://www.microsoft.com/en-us/research/publication/beyond-accuracy-behavioral-testing-of-nlp-models-with-checklist/)
 * From your professor + Metaflow creators, [DAG Cards](https://arxiv.org/abs/2110.13601)
+* On the importance of a rounded evaluation, see also the [CIKM 2022 Data Challenge](https://github.com/RecList/evalRS-CIKM-2022) (all open source) in the RecSys domain
