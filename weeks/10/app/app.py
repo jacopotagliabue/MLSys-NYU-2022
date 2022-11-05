@@ -35,7 +35,7 @@ def get_latest_successful_run(flow_name: str):
 
 # get artifacts from latest run, using Metaflow Client API
 latest_run = get_latest_successful_run(FLOW_NAME)
-latest_model = latest_run.data.model
+latest_model = latest_run.data.modecd .l
 latest_X_train = latest_run.data.X_train
 y_predicted = latest_run.data.y_predicted
 y_test = latest_run.data.y_test
