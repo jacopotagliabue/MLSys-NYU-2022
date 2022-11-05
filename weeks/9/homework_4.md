@@ -18,7 +18,7 @@ Useful links: [Comet scikit docs](https://www.comet.com/docs/v2/integrations/ml-
 , [Metaflow foreach docs](https://docs.metaflow.org/metaflow/basics).
 
 
-## Task 2: generalizing the flow (25%):
+## Task 2: generalizing the flow (25%)
 
 After you complete the first task, you will make the flow more general, by adding a new Metaflow Parameter. 
 
