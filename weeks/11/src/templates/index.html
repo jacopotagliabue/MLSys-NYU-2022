@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ project }} app</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<script type="text/javascript">
+
+    $(function() {
+        $('#predict').click(function() {
+            event.preventDefault();
+            var form_data = new FormData($('#myform')[0]);
+            console.log(form_data);
+            $.ajax({
+                type: 'POST',
+                url: '/',
+                data: form_data,
+                contentType: false,
+                processData: false,
+            }).done(function(data, textStatus, jqXHR){
+                $('#result').text(data);
+            }).fail(function(data){
+                alert('error!');
+            });
+        });
+    }); 
+
+</script>
+<body>
+	<h1>{{ project }}</h1>
+	<form id="myform" method="POST">
+		<input type="text" name="_x" style="width: 640px;" placeholder="Enter an input X (float)"><br>
+	</form>
+    <p>
+        Example: <em>10.0</em>
+    </p>
+	<button id="predict">Predict target</button>
+	<h2 id="result"></h2>
+</body>
+</html>
