@@ -1,4 +1,4 @@
-# Week 10
+# Week 11
 
 ## Serving predictions
 
@@ -10,4 +10,6 @@ The current endpoint is very barebone - check the slides for suggestions on how 
 
 ## Misc. Links
 
-TBC
+* If you want to try Fast API as an alternative to Flask, start with the [tutorial](https://fastapi.tiangolo.com/tutorial/).
+* There are many ways to go from local to cloud deployment in a "better" (more scalable, principled) way than what we show with Flask. A cool framework that can used across many different setups is [BentoML](https://www.bentoml.com/).
+* [Chip's book](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969) contains chapters on monitoring and re-training, if you want to go deeper in what happens after deployment.
