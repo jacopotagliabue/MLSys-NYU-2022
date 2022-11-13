@@ -61,6 +61,7 @@ Thanks to all outstanding people quoted and linked in the slides: this course is
 
 * Hugo;
 * Chip;
+* Ciro;
 * Gideon.
 
 ## Suggested complementary / additional readings
