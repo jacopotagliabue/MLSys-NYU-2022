@@ -1,6 +1,6 @@
 # Week 12
 
-## RecSys and representation Learning
+## Representation learning: an introduction through NLP
 
 TBC
 

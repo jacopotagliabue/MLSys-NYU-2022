@@ -3,15 +3,17 @@ Slides, scripts and materials for the Machine Learning in Finance Course at NYU 
 
 ## Overview
 
-This repository contains the teaching materials by Prof. [Ethan Rosenthal](https://www.ethanrosenthal.com/) and [myself](https://jacopotagliabue.it/) for the 2022 course in ML at the NYU Tandon School of Engineering.
+DISCLAIMER: A significant part of our course is class participation (this is why, in the end, we have universities and not *just* books and repos!), and no amount of scripts can provide the same level of educational content, or a comparable experience. Please note that this course changes substantially every year, so the best way to keep up to date with us is... by enrolling in the [Master](https://engineering.nyu.edu/academics/programs/financial-engineering-ms)!
 
-We open source slides, code snippets and even assignements after the class is completed, hoping to benefit the broader community of Machine Learning students and practitioners; I had a calculus book that said, "What one fool can do, another can.", and I wish more and more fools could become proficient at building reliable, trust-worthy, well-crafted ML systems.
+This repository contains some of the teaching materials by Prof. [Ethan Rosenthal](https://www.ethanrosenthal.com/) and [myself](https://jacopotagliabue.it/) for the 2022 course in ML at the NYU Tandon School of Engineering.
+
+We open source slides, code snippets and assignements after the class is completed, hoping to benefit the broader community of Machine Learning students and practitioners; I had a calculus book that said, "What one fool can do, another can.", and I wish more and more fools could become proficient at building reliable, trust-worthy, well-crafted ML systems.
 
 We feel there are now enough books and YouTube videos for people interested purely in the theory of ML; moreover, practictioners produce a much bigger marginal value when bringing into the class their day-to-day experience, which, for the time being, cannot be as easily found on YouTube.
 
 Therefore, the course we run is very practical and focuses on the intuitive understanding of ML problems and their solutions _through real-world tools_: we emphasize the importance of good coding habits, and the use of industry standard methodology, over complex modelling and formulas (alas, we do indeed sometime need to talk about math).
 
-The whole course runs in 14 weeks, but we cover arguments that would keep you busy for a lifetime: every lecture, every slide, every code snippet are the result of many explicit and implicit trade-offs - what should we cover, what should we not? While this material cannot substitute for real-world interactions and our great sense of humour, we leave for the open source community to judge how useful the trade-offs we picked actually are.
+The whole course runs in 14 weeks, but we cover arguments that would keep you busy for a lifetime: every lecture, every slide, every code snippet are the result of many explicit and implicit trade-offs - what should we cover, what should we not? While no material cannot substitute for real-world interactions and our great sense of humour, we leave for the open source community to judge how useful the trade-offs we picked actually are.
 
 ### At a glance
 
@@ -33,36 +35,34 @@ Compared to [2021 edition](https://github.com/jacopotagliabue/FREE_7773), most m
 
 ## Tooling overview
 
-### Intro to Python
+### Intro to Python and Git
 
-TBC
+Python is the main language for Machine Learning, but it is surprisingly hard to set up a [working environment](https://calmcode.io/virtualenv/intro.html). We introduce virtualenv and basics of git to get you started.
 
 ### Metaflow
 
-TBC
+[Metaflow](https://metaflow.org/) is an open-source tool designed to simplify building, maintaining and deploying ML pipelines (e.g. [here](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat)). Starting this year, Outerbounds provided us with free [sandbox accounts](https://outerbounds.com/docs/sandbox/) (thank you!).
 
 ### Streamlit
 
-TBC
+[Streamlit](https://streamlit.io/) turns Python scripts into web apps in minutes, helping with prototyping and sharing the results of our pipelines. Streamlit apps can be used to display artifacts from Metaflow, and [make the model interactive for non-technical stakeholders](https://github.com/jacopotagliabue/MLSys-NYU-2022/blob/main/weeks/10/app/app.py).
 
 ### Comet
 
-The file `comet_playground.py` is a simple adaptation of Comet onboarding script for sklearn: if run correctly, the Comet dashboard should start displaying experiments under the chosen project name.
- 
-Make sure to set `COMET_API_KEY` and `MY_PROJECT_NAME` as env variables before running the script.
+[Comet](https://www.comet.com/site/) is a machine learning platform that can help you manage, visualize, and optimize training runs. We use Comet to keep track of our experiments, and document our progress with the rest of our team and technical stakeholders (thank you for the free account!).
 
 ### Flask
 
-TBC
+[Flask](https://flask.palletsprojects.com/en/2.2.x/) is a micro web framework written in Python. It allows us to build (in Python) APIs that serve predictions made by our trained model *in real-time*, and display the results in the browser.
 
 ## Acknowledgments
 
 Thanks to all outstanding people quoted and linked in the slides: this course is possible only because we truly stand on the shoulders of giants. Special thanks also to:
 
-* Hugo;
-* Chip;
-* Ciro;
-* Gideon.
+* [Hugo](https://www.linkedin.com/in/hugo-bowne-anderson-045939a5/) for being our fantastic guest speaker on Metaflow;
+* [Chip](https://www.linkedin.com/in/chiphuyen/) for being our fantastic guest speaker on MLOps;
+* [Ciro](https://www.linkedin.com/in/cirogreco/) for being our fantastic guest speaker on industry applications of ML and ML careers;
+* [Gideon](https://www.linkedin.com/in/gideon-mendels/) for fantastic support and free accounts for all the students.
 
 ## Suggested complementary / additional readings
 
