@@ -2,7 +2,11 @@
 
 ## Representation learning: an introduction through NLP
 
-TBC
+In the lecture, we explained the importance of "similarity" for recommender systems, and how vector representations can be a good proxy in a "proper" latent space.
+
+We build our intuition on embeddings starting from the well-understood case of word embeddings in NLP ("word2vec"); in particular, we learn that by specifying a suitable prediction task, the learning dynamics will naturally push "closer in the space" embeddings of similar items.
+
+The `notebooks` folder contains some sample code to train word2vec from scratch on a corpus, and some data viz to understand what the space actually encodes after training (needed packages are indicated directly in-line in the cells).
 
 ## Misc. Links
 
