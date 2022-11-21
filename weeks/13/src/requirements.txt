@@ -1,0 +1,4 @@
+metaflow==2.5.0
+matplotlib==3.4.3
+gensim==4.2.0
+reclist==0.3.1 

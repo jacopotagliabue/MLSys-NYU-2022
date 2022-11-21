@@ -68,11 +68,21 @@ Thanks to all outstanding people quoted and linked in the slides: this course is
 
 The main topics - Time Series, Fraud Detection, MLOps, RecSys etc. - are all huge, and we could obviously just scratch the surface. Aside from all the references to be found in the weeklys slides and READMEs, these are few good places to further explore this world.
 
-### Modelling
-* [Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran%C3%A7ois-Chollet/dp/1617296864): great practical intro to ML concepts and the basics of DL;
+### Machine Learning
+* [Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran%C3%A7ois-Chollet/dp/1617296864): great practical intro to ML concepts and the basics of DL using Keras.
+
+* [Machine Learning with PyTorch and Scikit-Learn](https://www.amazon.com/Machine-Learning-PyTorch-Scikit-Learn-learning-ebook/dp/B09NW48MR1): another great practical intro to ML / DL, focused on PyTorch.
+
+* [RecList](https://github.com/jacopotagliabue/reclist): our own open source project (library, paper, tutorials) for better testing of recommender systems.
 
 ### MLOps
+* [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969): a book by Chip Huyen on how machine learning systems are designed, end to end - excellent introduction to basic MLOps concepts.
+
+* [Effective Data Science Infrastructure](https://www.manning.com/books/effective-data-science-infrastructure): a book by Ville Tuulos - Metaflow creator - on how to make data scientist productive.
+
 * [You Don't Need a Bigger Boat](https://github.com/jacopotagliabue/you-dont-need-a-bigger-boat): our own fully open source repository showing how state-of-the-art ML systems can be built at scale, component after component.
+
+* [Comet for Data Science](https://www.packtpub.com/product/comet-for-data-science/9781801814430): on how to take advantage of existing platform for experiment tracking, collaboration and managing the life-cycle of ML artifacts.
 
 ## Contacts
 
