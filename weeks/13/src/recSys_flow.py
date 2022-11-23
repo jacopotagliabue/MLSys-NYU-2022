@@ -3,7 +3,7 @@
 A Metaflow pipeline showing how to use skip-gram based embeddings for music songs 
 to recommend new tracks to users.
 
-Original dataset wrapper and testing code coming from RecLisy:
+Original dataset wrapper and testing code coming from RecList:
 
 https://github.com/jacopotagliabue/reclist/blob/main/examples/spotify_session_rec.py
 
@@ -12,16 +12,10 @@ Please check the README in this repository for background info.
 """
 
 
-from metaflow import FlowSpec, step, Parameter, current
+from metaflow import FlowSpec, step, current
 
 
 class PlaylistRecsFlow(FlowSpec):
-
-    KNN_K = Parameter(
-        name='knn_k',
-        help='Number of neighbors we retrieve from the vector space',
-        default='100'
-    )
 
     @step
     def start(self):
@@ -50,7 +44,7 @@ class PlaylistRecsFlow(FlowSpec):
         print(self.spotify_dataset.x_train[0][0]['playlist_name'])
         # next up, generate vectors for songs from existing playlists
         # hypers are just window lenghts as an example
-        self.hypers_sets = [3] # 5, 10]
+        self.hypers_sets = [5] # [3, 10]
         self.next(self.generate_embeddings, foreach='hypers_sets')
 
     @step
@@ -95,6 +89,7 @@ class PlaylistRecsFlow(FlowSpec):
         print("The best score is for model: {}, {}".format(self.best_model, self_best_result))
         # assign as "final" the best vectors for downstream tasks
         self.final_vectors = self.all_vectors[self.best_model]
+        self.final_dataset = inputs[0].spotify_dataset.x_train
         # all done, say goodbye!
         self.next(self.end)
 

@@ -30,7 +30,7 @@ class SpotifyModel(RecModel):
         x_train_uris = [[track['track_uri'] for track in playlist] for playlist in playlists]
         self._model = train_embeddings(
             x_train_uris, 
-            min_c=3,
+            min_c=2,
             size=48,
             window=window,
             iterations=15,
