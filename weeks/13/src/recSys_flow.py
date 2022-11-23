@@ -41,7 +41,10 @@ class PlaylistRecsFlow(FlowSpec):
         # get the Spotify million playlist dataset as a RecDataset object
         self.spotify_dataset = SpotifyDataset(force_download=False)
         # check the dataset by printing out the first playlist
-        print(self.spotify_dataset.x_train[0][0]['playlist_name'])
+        print("First playlist is", self.spotify_dataset.x_train[0][0]['playlist_name'])
+        self.data_catalog = self.spotify_dataset.catalog
+        test_track = self.data_catalog[list(self.data_catalog.keys())[0]]
+        print("First track metadata is", test_track['track_name'], test_track['artist_name'], test_track['album_name'])
         # next up, generate vectors for songs from existing playlists
         # hypers are just window lenghts as an example
         self.hypers_sets = [5] # [3, 10]
@@ -90,6 +93,7 @@ class PlaylistRecsFlow(FlowSpec):
         # assign as "final" the best vectors for downstream tasks
         self.final_vectors = self.all_vectors[self.best_model]
         self.final_dataset = inputs[0].spotify_dataset.x_train
+        self.final_catalog = inputs[0].data_catalog
         # all done, say goodbye!
         self.next(self.end)
 
