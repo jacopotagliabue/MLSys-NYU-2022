@@ -13,7 +13,7 @@ We feel there are now enough books and YouTube videos for people interested pure
 
 Therefore, the course we run is very practical and focuses on the intuitive understanding of ML problems and their solutions _through real-world tools_: we emphasize the importance of good coding habits, and the use of industry standard methodology, over complex modelling and formulas (alas, we do indeed sometime need to talk about math).
 
-The whole course runs in 14 weeks, but we cover arguments that would keep you busy for a lifetime: every lecture, every slide, every code snippet are the result of many explicit and implicit trade-offs - what should we cover, what should we not? While no material cannot substitute for real-world interactions and our great sense of humour, we leave for the open source community to judge how useful the trade-offs we picked actually are.
+The whole course runs in 14 weeks, but we cover arguments that would keep you busy for a lifetime: every lecture, every slide, every code snippet are the result of many explicit and implicit trade-offs - what should we cover, what should we not? While no material can substitute for real-world interactions and our great sense of humour, we leave for the open source community to judge how useful the trade-offs we picked actually are.
 
 ### At a glance
 
@@ -66,7 +66,7 @@ Thanks to all outstanding people quoted and linked in the slides: this course is
 
 ## Suggested complementary / additional readings
 
-The main topics - Time Series, Fraud Detection, MLOps, RecSys etc. - are all huge, and we could obviously just scratch the surface. Aside from all the references to be found in the weeklys slides and READMEs, these are few good places to further explore this world.
+The main topics - Time Series, Fraud Detection, MLOps, RecSys etc. - are all huge, and we could obviously just scratch the surface. Aside from all the references to be found in the slides and READMEs, these are few good places to further explore this world.
 
 ### Machine Learning
 * [Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran%C3%A7ois-Chollet/dp/1617296864): great practical intro to ML concepts and the basics of DL using Keras.
