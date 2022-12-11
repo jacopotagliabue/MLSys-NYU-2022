@@ -1,11 +1,11 @@
 # MLSys-NYU-2022
-Slides, scripts and materials for the Machine Learning in Finance Course at NYU Tandon, 2022.
+Slides, scripts and materials for the _Machine Learning in Finance_ course at NYU Tandon, 2022.
 
 ## Overview
 
 DISCLAIMER: A significant part of our course is class participation (this is why, in the end, we have universities and not *just* books and repos!), and no amount of scripts can provide the same level of educational content, or a comparable experience. Please note that this course changes substantially every year, so the best way to keep up to date with us is... by enrolling in the [Master](https://engineering.nyu.edu/academics/programs/financial-engineering-ms)!
 
-This repository contains some of the teaching materials by Prof. [Ethan Rosenthal](https://www.ethanrosenthal.com/) and [myself](https://jacopotagliabue.it/) for the 2022 course in ML at the NYU Tandon School of Engineering.
+TL;DR: This repository contains some of the teaching materials by Prof. [Ethan Rosenthal](https://www.ethanrosenthal.com/) and [myself](https://jacopotagliabue.it/) for the 2022 course in ML at the NYU Tandon School of Engineering. The course is presented as an introduction to Machine Learning with Finance use cases and industry-standard tools.
 
 We open source slides, code snippets and assignements after the class is completed, hoping to benefit the broader community of Machine Learning students and practitioners; I had a calculus book that said, "What one fool can do, another can.", and I wish more and more fools could become proficient at building reliable, trust-worthy, well-crafted ML systems.
 
@@ -15,7 +15,21 @@ Therefore, the course we run is very practical and focuses on the intuitive unde
 
 The whole course runs in 14 weeks, but we cover arguments that would keep you busy for a lifetime: every lecture, every slide, every code snippet are the result of many explicit and implicit trade-offs - what should we cover, what should we not? While no material can substitute for real-world interactions and our great sense of humour, we leave for the open source community to judge how useful the trade-offs we picked actually are.
 
-### At a glance
+## At a glance
+
+### Main themes
+
+The course is structured around 14 weeks: 13 weeks of lectures, and 1 final demo day for students (organized in teams) to present an end-to-end machine learning project that showcases what they learned in the course. Main topics, roughly in order of appearance:
+
+* Introduction to ML in Finance: use cases, tools, the rise of MLOps.
+* Python setup for scientific computing: notebooks, environments, dependencies.
+* ML best practices: dataset split, hyper-parameter tuning.
+* Modelling: classification, regression.
+* Use case deep dive I: fraud detection.
+* MLOps best practices: experiment tracking, DAG-based pipelines, deployment.
+* Rounded evaluation: slice-based metrics, behavioral testing. 
+* Introduction to embeddings: skip-gram, similarity in a latent space.
+* Use case deep dive II: recommender systems.
 
 ### Repo structure
 
